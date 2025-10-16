@@ -1,20 +1,27 @@
 {
-  "name": "catbackend",
-  "version": "1.0.0",
-  "description": "Meow",
-  "homepage": "https://github.com/ostuxcat/CatBackend#readme",
-  "bugs": {
-    "url": "https://github.com/ostuxcat/CatBackend/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ostuxcat/CatBackend.git"
-  },
-  "license": "ISC",
-  "author": "Ameya Gurjar",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "name": "catbackend",
+    "version": "1.0.0",
+    "description": "Meow",
+    "homepage": "https://github.com/ostuxcat/CatBackend#readme",
+    "bugs": {
+        "url": "https://github.com/ostuxcat/CatBackend/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ostuxcat/CatBackend.git"
+    },
+    "license": "ISC",
+    "author": "Ameya Gurjar",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10",
+        "prettier": "^3.6.2"
+    },
+    "dependencies": {
+        "dotenv": "^17.2.3"
+    }
 }
